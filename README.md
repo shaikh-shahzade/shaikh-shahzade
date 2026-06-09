@@ -1,16 +1,89 @@
-<h1 align="center">Hi 👋, I'm Shaikh Shahzade</h1>
-<h3 align="center">A passionate Full-stack Java Developer</h3>
+# Hi, I'm Shaikh Shahzade 👋
 
-- 🔭 I’m currently working on [Exampal App](https://github.com/shaikh-shahzade/exam-pal-backend)
+**Backend Engineer · 4+ Years · Financial Systems & Distributed Architecture**
 
-- 🌱 I’m currently learning **Kafka**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shaikh-shahzade.github.io/)
+[![Email](https://img.shields.io/badge/shahzade10@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shahzade10@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode_500+-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com)
 
-- 📫 How to reach me **shahzade10@gmail.com**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/shaikh-shahzade/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shaikh-shahzade/" height="30" width="40" /></a>
-</p>
+## 🔧 What I'm Building
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+### 🚧 DPPS — Distributed Payment Processing System *(In Progress)*
+
+> A production-grade marketplace payment platform built on 11 microservices, targeting **1M transactions/day** with a **99.9% SLA**.
+
+**Key design decisions:**
+- Multi-layer idempotency (Redis + DB) for exactly-once payment processing
+- Resilience4j circuit breakers + rate limiting at the gateway
+- Automated seller payout splits with platform commission via Razorpay Route
+
+**Stack:** `Java 17` `Spring Boot 3.3` `Spring Cloud` `Apache Kafka` `MySQL` `Redis` `Keycloak` `Docker` `Prometheus` `Grafana`
+
+---
+
+## 💼 Experience
+
+**Java Developer (Tech Lead)** — Genpact India *(Jul 2022 – Present)*
+
+Leading a team of 10 engineers on a billing & settlement platform that processes **1M+ invoices/month**.
+
+| Impact | Result |
+|--------|--------|
+| Automated 18 recurring tickets/month | Support team reduced from 15 → 8 |
+| Batch API processing + Redis caching | 75–83% request reduction, 20% latency improvement |
+| DB read replica routing | Report generation time cut 50% (60s → 30s) |
+| ERP file transfer automation | Failure rate dropped 95% (1–2/day → 1–2/month) |
+| Treasury reconciliation UI | Manual work reduced from 15 hrs → 2 hrs/month |
+
+---
+
+## 🗂️ Projects
+
+**[Financial Billing Application](https://github.com/shahzade10)**
+`Spring Boot` `Java` `MSSQL` `Angular` `Redis` `Azure App Service`
+End-to-end billing system processing 1M+ invoices/month across multiple business entities with automated reconciliation and reporting pipelines.
+
+**[DPPS — Distributed Payment Processing System](https://github.com/shahzade10)** ← *active*
+`Java 17` `Spring Boot 3.3` `Kafka` `Redis` `Keycloak` `Docker`
+See above ↑
+
+**[Java Banking Application](https://github.com/shahzade10)**
+`Spring Boot` `Java` `Hibernate` `Angular` `Docker`
+Banking platform covering accounts, transfers, loan operations, and multi-layered auth (JWT + OTP) with RBAC.
+
+---
+
+## 🛠️ Tech Stack
+
+```java
+Languages   : Java  ·  Node.js  ·  TypeScript  ·  SQL
+Frameworks  : Spring Boot  ·  Spring Cloud  ·  Hibernate  ·  Express.js
+Messaging   : Apache Kafka
+Databases   : MySQL  ·  MSSQL  ·  MongoDB  ·  Redis
+Cloud/DevOps: AWS (Certified)  ·  Docker  ·  CI/CD
+Frontend    : Angular  ·  Angular Material  ·  AG Grid
+Security    : Keycloak  ·  Spring Security  ·  OAuth2/OIDC  ·  JWT
+Observability: Prometheus  ·  Grafana  ·  OpenTelemetry  ·  Loki
+Testing     : JUnit  ·  Mockito
+```
+
+---
+
+## 🏅 Certifications & Achievements
+
+- 🏆 **AWS Certified Developer – Associate** (Amazon Web Services)
+- 💡 500+ DSA problems solved on LeetCode & GeeksforGeeks
+- 🥉 3rd Prize — VIGYAAN Avartan Science Exhibition, NIT Raipur (2019)
+- 📦 Drove 15+ technical improvements from proposal to production
+
+---
+
+## 🎓 Education
+
+**M.C.A.** — National Institute of Technology (NIT), Raipur *(2019–2022)*
+**B.C.A.** — Jeevandeep Mahavidyalaya, Varanasi *(2016–2019)*
+
+---
